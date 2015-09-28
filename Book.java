@@ -22,6 +22,11 @@ class Book
         author = bookAuthor;
         title = bookTitle;
     }
+    
+    public void printDetails()
+    {
+        System.out.println("Title:" + title + "Author:" + author + "Pages:" + pages);
+    }
 
     public String getAuthor()
     {

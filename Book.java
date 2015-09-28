@@ -11,6 +11,7 @@ class Book
     // The fields.
     private String author;
     private String title;
+    private int pages;
 
     /**
      * Set the author and title fields when this object
@@ -30,6 +31,11 @@ class Book
     public String getTitle()
     {
         return title;
+    }
+    
+    public int getPages()
+    {
+        return pages;
     }
     
     public void printAuthor()

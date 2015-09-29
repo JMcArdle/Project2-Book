@@ -39,6 +39,11 @@ class Book
     public void printDetails()
     {
         System.out.println("Title:" + title + "Author:" + author + "Pages:" + pages);
+        if(refNumber.length() > 1) {
+            System.out.println("ZZZ");
+        }
+        else
+            System.out.println(refNumber);
     }
 
     public String getAuthor()

@@ -28,7 +28,12 @@ class Book
    
     public void setRefNumber(String ref)
     {
-        refNumber = "";
+        
+        if(refNumber.length() >= 3) {
+            refNumber = "";
+        }
+        else
+            System.out.println("Enter a number with more than 3 characters.");
     }
     
     public String getRefNumber()
